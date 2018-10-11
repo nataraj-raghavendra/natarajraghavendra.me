@@ -3,7 +3,7 @@ services:
     - docker
 
 before_install:
-    - docker build -r raghavendranataraj/website -f Dockerfile.dev .
+    - docker build -t raghavendranataraj/website -f Dockerfile.dev .
 
 script:
     - docker run raghavendranataraj/website npm run test -- --coverage
