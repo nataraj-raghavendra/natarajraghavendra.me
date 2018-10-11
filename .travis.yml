@@ -7,5 +7,3 @@ before_install:
 
 script:
     - docker run raghavendranataraj/website npm run test -- --coverage
-
-
