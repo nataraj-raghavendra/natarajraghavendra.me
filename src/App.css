@@ -12,15 +12,21 @@ body {background-color: grey;}
 .Body {
   background-color: #000000;
 }
+
 .footer-icons{ 
  width:52px;
 height:52px;
 }
+
+.footer-img{
+display:inline-block;
+}
+
 .App-header {
   background-color: #000000;
   min-height: 10vh;
   display: flex;
-  flex-direction: column;
+  //flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -30,10 +36,11 @@ height:52px;
 .App-footer {
   background-color: #000000;
   min-height: 10vh;
+  padding-top: 20px;
   position: absolute;
   left: 0;
   bottom: 0;
-  display: flex;
+  //display: flex;
   width: 100%;
   flex-direction: column;
   align-items: center;

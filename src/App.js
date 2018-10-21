@@ -25,8 +25,11 @@ class Footer extends React.Component {
    render() {
       return (
          <div className="App-footer">
-            <a href="https://github.com/raghavendra-nataraj" target="_blank"><img class="footer-icons" src={require('./Octocat.png')}/></a>
-         </div>
+	      <div className="footer-img">       
+	      <a className="footer-img" href="https://github.com/raghavendra-nataraj" target="_blank"><img class="footer-icons" src={require('./images/Octocat.png')}/></a></div>
+	      <div className="footer-img">
+	      <a className="footer-img" href="https://www.linkedin.com/in/raghavendranataraj" target="_blank"><img class="footer-icons" src={require('./images/In.png')}/></a></div>
+	   </div>
       );
    }
 }
