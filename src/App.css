@@ -1,3 +1,5 @@
+body {background-color: grey;}
+
 .App {
   text-align: center;
 }
@@ -7,10 +9,32 @@
   height: 40vmin;
 }
 
+.Body {
+  background-color: #000000;
+}
+.footer-icons{ 
+ width:52px;
+height:52px;
+}
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #000000;
+  min-height: 10vh;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-footer {
+  background-color: #000000;
+  min-height: 10vh;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  width: 100%;
   flex-direction: column;
   align-items: center;
   justify-content: center;
